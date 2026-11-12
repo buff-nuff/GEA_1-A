@@ -350,6 +350,9 @@ GameObject:
   - component: {fileID: 1904104483}
   - component: {fileID: 1904104482}
   - component: {fileID: 1904104485}
+  - component: {fileID: 1904104486}
+  - component: {fileID: 1904104487}
+  - component: {fileID: 1904104488}
   m_Layer: 0
   m_Name: Tester
   m_TagString: Untagged
@@ -422,6 +425,44 @@ MonoBehaviour:
   totalDamage: 250
   Hits: 20
   expRate: 1.5
+--- !u!114 &1904104486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904104481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda16ca18d384941ac2fb6242df2927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DamagePractice
+--- !u!114 &1904104487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904104481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00294c8727296c48af4460a7d67f2a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Lesson10
+--- !u!114 &1904104488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904104481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 773c3664e2e03e34e9c6afa36cb41af0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelSystem
+  expPerKill: 35000
+  killCount: 3
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
