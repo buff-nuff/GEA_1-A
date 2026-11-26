@@ -356,6 +356,9 @@ GameObject:
   - component: {fileID: 1904104491}
   - component: {fileID: 1904104490}
   - component: {fileID: 1904104489}
+  - component: {fileID: 1904104494}
+  - component: {fileID: 1904104493}
+  - component: {fileID: 1904104492}
   m_Layer: 0
   m_Name: Tester
   m_TagString: Untagged
@@ -504,6 +507,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArrayPractice
   golds: 2c010000b00400003200000020030000
+--- !u!114 &1904104492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904104481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17b04bade978fc42b4b33e2bc165746, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClassPractice
+--- !u!114 &1904104493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904104481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a962f86122c45bd4da91b0719f38f795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FunctionPractice
+--- !u!114 &1904104494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904104481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5af35a91c271bc4fa26e3a5a1d3d6d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Lesson12
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
